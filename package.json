@@ -29,9 +29,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "craco start NODE_OPTIONS='--openssl-legacy-provider",
-    "build": "craco build NODE_OPTIONS='--openssl-legacy-provider",
-    "test": "craco test NODE_OPTIONS='--openssl-legacy-provider",
+    "start": "craco start NODE_OPTIONS='--openssl-legacy-provider'",
+    "build": "craco build NODE_OPTIONS='--openssl-legacy-provider'",
+    "test": "craco test NODE_OPTIONS='--openssl-legacy-provider'",
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
