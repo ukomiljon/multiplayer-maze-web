@@ -53,6 +53,7 @@ function OfflineMaze(): JSX.Element {
       <Canvas ref={canvasRef} size={canvasSize} />
       <JoyStick size={100} offStick={offStick} onStick={onStick} />
     </Container>
+
   );
 }
 
