@@ -10,10 +10,11 @@ const LINKS: Array<Link> = [
 ];
 
 export const FIREBASE_CONFIG = {
-  apiKey: process.env.REACT_APP_firebase_apiKey,
-  authDomain: process.env.REACT_APP_firebase_authDomain,
-  databaseURL: process.env.REACT_APP_firebase_databaseURL,
-  storageBucket: process.env.REACT_APP_firebase_storageBucket
+  projectId: 'maze-a2b08',
+  apiKey: 'AIzaSyAfNFU1GhESw6oZ1sY2kUPJwRwXDEyDnF0',
+  authDomain: 'maze-a2b08.firebaseapp.com',
+  databaseURL: 'https://maze-a2b08-default-rtdb.asia-southeast1.firebasedatabase.app/',
+  storageBucket: 'maze-a2b08.appspot.com'
 };
 
 const position: ToastPosition = 'top-right';

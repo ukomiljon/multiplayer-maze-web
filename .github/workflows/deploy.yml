@@ -9,10 +9,10 @@ jobs:
       matrix:
         node-version: [15.x]
     env:
-      REACT_APP_firebase_apiKey: ${{ secrets.API_KEY }}
-      REACT_APP_firebase_authDomain: ${{ secrets.AUTHDOMAIN }}
-      REACT_APP_firebase_databaseURL: ${{ secrets.DATABASE_URL }}
-      REACT_APP_firebase_storageBucket: ${{ secrets.STORAGEBUCKET }}
+      REACT_APP_firebase_apiKey: 'AIzaSyAfNFU1GhESw6oZ1sY2kUPJwRwXDEyDnF0'
+      REACT_APP_firebase_authDomain: 'maze-a2b08.firebaseapp.com'
+      REACT_APP_firebase_databaseURL: 'https://maze-a2b08-default-rtdb.asia-southeast1.firebasedatabase.app/'
+      REACT_APP_firebase_storageBucket: 'maze-a2b08.appspot.com'
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
